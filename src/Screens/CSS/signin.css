@@ -1,0 +1,69 @@
+.back {
+    background-image: url('https://drive.google.com/uc?id=182JNGIfPNL4ghAj4QOVkTmBgXlkx3KzU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin: 0;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .backAdmin {
+    background-image: url('https://drive.google.com/uc?id=1gCNAkNgQmwxSX5RzCBUcpjk8PvAbWFej');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin: 0;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.in {
+    
+    width: 520px;
+    height: 400px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    color: rgb(249, 250, 250);
+    font-weight: bolder;
+    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d3737f6;
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+}
+
+.input {
+    margin-top: 17px;
+    padding-left: 10px;
+    border-radius: 8px;
+    height: 60px;
+    width: 100%;
+    max-width: 350px; /* Limit the width */
+    border: none;
+    background-color: rgba(255, 248, 220, 0.677);
+}
+
+.input::placeholder {
+    padding-left: 12px;
+    height: 40px;
+    color: rgb(2, 2, 2);
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto; /* Center the button */
+    margin-top: 48px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    background-color: #1c0a10;
+    color: white;
+    font-size: 19px;
+}

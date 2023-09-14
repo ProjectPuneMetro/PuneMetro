@@ -1,0 +1,155 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px;
+    width: 60%;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 10px rgba(129, 77, 205, 0.8);
+  }
+  
+  .conClass1 {
+    align-items: center;
+    border: 1px;
+    width: 300px;
+    height: 350px;
+    background-color: whitesmoke;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 10px rgba(129, 77, 205, 0.8);
+  }
+  
+  .mainDiv {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+  }
+  
+ 
+  .btnn1 {
+    height: 80%;
+    width: 30%;
+    margin: 10px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  @media (max-width: 768px) {
+    /* Adjustments for smaller devices */
+    .header {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .conClass1 {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .mainDiv {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+    
+    .btnn {
+      padding-left: 0;
+      width: 200px;
+    }
+    .btnn1 {
+        height: 80%;
+        width: 30%;
+        margin: 10px;
+      }
+  }
+  .seats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 500px;
+    
+    padding-top: 100px;
+    width: 100%; /* Set the container width to 100% */
+  }
+  
+  .seat-item {
+    height: 80%;
+    width: calc(50% - 20px); /* Adjusted width with margin */
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 10px;
+    margin-right: 20px;
+  }
+  
+  /* Customized styles for .btn-outline-primary */
+  .btn-outline-primary {
+    color: #007bff;
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-outline-primary:active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-outline-danger {
+    color: red;
+    height: 50px;
+    width: 100px;
+    cursor: not-allowed; /* Show a "not allowed" cursor */
+    pointer-events: none;
+    background-color: transparent;
+    border-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .btn.btn-danger:hover {
+    color: #fff;
+    cursor: not-allowed; /* Show a "not allowed" cursor */
+    pointer-events: none;
+    background-color: red;
+    border-color: #007bff;
+  }
+  .selected-seat {
+    background-color: orange;
+    border-color: #007bff;
+    color: #fff;
+  }
+  .selected-cancel {
+    background-color: orange;
+    border-color: #007bff;
+    color: #fff;
+    cursor: not-allowed; /* Show a "not allowed" cursor */
+    pointer-events: none;
+    
+  }
+  

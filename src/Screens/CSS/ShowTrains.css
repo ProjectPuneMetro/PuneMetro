@@ -1,0 +1,51 @@
+.container {
+    margin-top: 50px;
+    display: inline-block;
+    
+  }
+  
+  .table-bordered {
+    box-shadow: none;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .table-bordered:hover {
+    box-shadow: 0 0 10px rgba(129, 77, 205, 0.8);
+    transform: scale(1.05);
+  }
+  
+  .source-station,
+  .departure-time,
+  .travel-time,
+  .platform,
+  .show-stations,
+  .destination-station {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+  }
+  
+  .show-stations:hover {
+    color: #5E5DF0;
+  }
+  
+  .button-34 {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 80px;
+    word-break: break-word;
+    border: 0;
+  }

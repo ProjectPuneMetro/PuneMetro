@@ -1,0 +1,142 @@
+.bodySignUp {
+    background-image: url('https://drive.google.com/file/d/192WNsS7RideVfuHG2uNUOL_KybraAVnj/view?usp=drive_link');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1Class {
+    height: 5vh; /* Use relative unit */
+    background-color: rgba(240, 255, 255, 0.883);
+    color: rgb(143, 10, 10);
+}
+
+.imgClass {
+    margin-top: 5vh; /* Use relative unit */
+    margin-left: 4vw; /* Use relative unit */
+    background-color: rgba(245, 245, 245, 0.798);
+    border-radius: 50%; /* Adjusted border-radius value */
+}
+
+.name {
+    color: white;
+}
+
+.h2Class {
+    margin-left: -15vw; /* Use relative unit */
+    font-weight: bolder;
+    font-size: 3vw; /* Use relative unit */
+    color: rgb(1, 22, 22);
+}
+
+.inClass {
+    margin-left: 40vw; /* Use relative unit */
+    margin-top: -40vh; /* Use relative unit */
+    height:fit-content;
+    width: 38vw; /* Use relative unit */
+    padding: 3vw; /* Use relative units */
+    
+    border-radius: 20px;
+    color: rgb(161, 84, 29);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    opacity: 0.9;
+    font-family: cursive;
+    background-color: rgba(196, 196, 215, 0.552);
+}
+
+.inputClass {
+    margin-top: 1vh; /* Use relative unit */
+    border-radius: 8px;
+    height: 8vh; /* Use relative unit */
+    width: 80%; /* Use relative unit */
+    max-width: 350px; /* Limit the width */
+    padding-left: 5px;
+    border: none;
+    font-size: medium;
+    font-family: Poppins, sans-serif;
+    background-color: rgba(243, 243, 243, 0.766);
+}
+
+.inputClass::placeholder {
+    padding-left: 1vw; /* Use relative unit */
+    font-size: 1.5vw; /* Use relative unit */
+    font-style: normal;
+    color: black;
+}
+
+.buttonClass {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh; /* Use relative unit */
+    height: 5vh; /* Use relative unit */
+    width: 40%; /* Use relative unit */
+    max-width: 200px; /* Limit the width */
+    border-radius: 8px;
+    font-size: 1.5vw; /* Use relative unit */
+    background-color: rgba(69, 224, 244, 0.721);
+}
+
+.footerClass {
+    margin-top: 10vh; /* Use relative unit */
+    background-color: rgba(98, 197, 233, 0.611);
+    color: rgb(235, 240, 240);
+    height: 5vh; /* Use relative unit */
+    font-size: 3vw; /* Use relative unit */
+    font-weight: bolder;
+}
+
+
+
+.button-6 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh; /* Use relative unit */
+    height: 5vh; /* Use relative unit */
+    width: 40%; /* Use relative unit */
+    padding-top: 10px;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}

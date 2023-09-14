@@ -1,0 +1,13 @@
+.conClass {
+    align-items: center;
+    border: 1px;
+    width: 500px;
+    height: 350px;
+    background-color: whitesmoke;
+    margin-top: 80px;
+    margin-left: 32%;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 10px rgba(129, 77, 205, 0.8);
+  }
+  
+  
